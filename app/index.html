@@ -1,0 +1,108 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Website Title</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="styles/styles.css">
+    </head>
+    <body>
+
+        <!-- Add your site or application content here -->
+        <p>Content werwerwer</p>
+
+        <div style="display:none;" id="video1">
+            <div class="player-wrapper">
+                <stream src="5d5bc37ffcf54c9b82e996823bffbb81" controls preload height="400px" width="100%"></stream>
+                <script data-cfasync="false" defer type="text/javascript" src="https://embed.cloudflarestream.com/embed/r4xu.fla9.latest.js?video=5d5bc37ffcf54c9b82e996823bffbb81"></script>        
+            </div>            
+        </div>
+
+
+        <div id="lightgallery">
+            
+            <div data-src="images/1-big.jpg">
+                <img src="images/1-medium.jpg" alt="">
+            </div>
+            <div data-src="images/2-big.jpg">
+                <img src="images/2-medium.jpg" alt="">
+            </div>
+            <div data-src="images/3-big.jpg">
+                <img src="images/3-medium.jpg" alt="">
+            </div>
+            <div data-src="images/4-big.jpg">
+                <img src="images/4-medium.jpg" alt="">
+            </div>
+            <div data-poster="images/video.jpg" data-html="#video1">
+                <img src="images/video.jpg" alt="">
+            </div>
+
+        </div>
+        
+        
+
+
+        <!--Create a wrapper for our player. This is where the player and the play button will live-->
+       <!--  <div class="player-wrapper">
+            <stream src="5d5bc37ffcf54c9b82e996823bffbb81" controls preload height="400px" width="100%"></stream>
+            <script data-cfasync="false" defer type="text/javascript" src="https://embed.cloudflarestream.com/embed/r4xu.fla9.latest.js?video=5d5bc37ffcf54c9b82e996823bffbb81"></script>
+        </div>
+    
+        <button class="play-video">
+            play
+        </button>
+        <button class="pause-video">
+            pause
+        </button>
+
+
+
+
+        <script>
+        var playerWrapper = document.querySelector('.player-wrapper');
+        var btnPlay = document.querySelector('.play-video');
+        var btnPause = document.querySelector('.pause-video');
+
+        btnPlay.addEventListener("click", function(){
+            playerWrapper.children[0].play();
+
+
+            playerWrapper.children[0].className('sdfsdfsdfsdf');
+
+
+            console.log();
+
+
+
+        });
+
+        btnPause.addEventListener("click", function(){
+            playerWrapper.children[0].pause()
+        });
+
+
+
+
+
+        </script>
+
+
+ -->
+
+
+
+
+
+        
+        <script src="scripts/app.js"></script>
+    </body>
+</html>
+
+
+
+
+
+
