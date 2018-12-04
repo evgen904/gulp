@@ -1973,7 +1973,6 @@
             } else {
                 thumbImg = thumb;
             }
-
             thumbList += '<div data-vimeo-id="' + vimeoId + '" class="lg-thumb-item" style="width:' + _this.core.s.thumbWidth + 'px; height: ' + _this.core.s.thumbHeight + '; margin-right: ' + _this.core.s.thumbMargin + 'px"><img src="' + thumbImg + '" /></div>';
             vimeoId = '';
         }
@@ -1984,9 +1983,14 @@
             }
         } else {
             _this.core.$items.each(function(i) {
-
                 if (!_this.core.s.exThumbImage) {
-                    getThumb($(this).attr('href') || $(this).attr('data-src'), $(this).find('img').attr('src'), i);
+                    
+                    if ($(this).find('img').attr('src') !== undefined) {
+                        getThumb($(this).attr('href') || $(this).attr('data-src'), $(this).find('img').attr('src'), i);
+                    }
+                    else {
+                        getThumb($(this).attr('href') || $(this).attr('data-src'), $(this).find('img').data('thumb-src'), i);
+                    }
                 } else {
                     getThumb($(this).attr('href') || $(this).attr('data-src'), $(this).attr(_this.core.s.exThumbImage), i);
                 }
