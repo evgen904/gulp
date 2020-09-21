@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="12" viewBox="0 0 44 12">
+    <defs>
+        <linearGradient id="q43029gcwb" x1="100%" x2="0%" y1="62.904%" y2="62.904%">
+            <stop offset="0%" stop-color="#1F5CD7"/>
+            <stop offset="100%" stop-color="#02AEFF"/>
+        </linearGradient>
+        <filter id="oti99vxuka">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.847000 0 0 0 0 0.847000 0 0 0 0 0.847000 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g filter="url(#oti99vxuka)" transform="translate(-789 -273)">
+                <g fill-rule="nonzero">
+                    <path fill="#0F754E" d="M4.027.002C4.416 0 5.572-.104 6.062 1.548c.33 1.114.855 2.938 1.576 5.472h.294c.773-2.672 1.305-4.496 1.594-5.472.495-1.67 1.732-1.546 2.227-1.546h3.817v11.876h-3.89V4.88h-.262l-2.169 7H6.321L4.152 4.873h-.26v7.004H0V.002h4.027zm17.131 0v7.004h.31l2.64-5.76C24.618.102 25.71.003 25.71.003h3.766v11.876h-3.973V4.874h-.31l-2.587 5.76c-.512 1.14-1.656 1.244-1.656 1.244h-3.765V.002h3.972zm22.05 5.644c-.555 1.57-2.295 2.695-4.221 2.695H34.82v3.537h-3.778V5.646h12.164z" transform="translate(789 273)"/>
+                    <path fill="url(#q43029gcwb)" d="M39.169.002h-8.324c.198 2.644 2.475 4.908 4.832 4.908h7.793c.45-2.198-1.098-4.908-4.301-4.908z" transform="translate(789 273)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
